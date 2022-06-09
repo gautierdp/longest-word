@@ -31,17 +31,7 @@ class Game:
                 letters.remove(letter)
             else:
                 return False
-        return True
-
-
-class Game:
-    # [...]
-
-    def is_valid(self, word):
-        # [...]
-
         return self.__check_dictionary(word)
-
 
     @staticmethod
     def __check_dictionary(word):
